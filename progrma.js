@@ -1,28 +1,35 @@
 console.log("Hello world!")
 // program 01
-var username ="noor"
-console.log("username is ",username)
+
+var username ="Noor"
+console.log("   Username is ",username)
 var age=15
-console.log("user age  is ", age)
+console.log("   User age  is ", age)
+
+
 // program 02
 var rollnum= 2417
-console.log(" rollnum of username", rollnum)
+console.log("Rollnum of user is ", rollnum)
 var grade=10
-console.log("grade of user  is " , grade)
+console.log("Grade of User  is " , grade)
+
+
 // program 03
 // string
-var course="web development"
-console.log("user course is ", course)
+var course="Web Development"
+console.log("User Course is ", course)
 // number
 var rollnum= 2417
-console.log(" rollnum of username", rollnum)
+console.log(" RollNum of User is", rollnum)
 var grade=10
-console.log("grade of user  is " , grade)
+console.log("   Gade of User  is " , grade)
 // boolean
 var housekeeper=false
-console.log("  user  is  a housekeeper" , housekeeper)
+console.log("  User  is  a Housekeeper" , housekeeper)
 var developer=true
-console.log("  user  is  a developer" , developer)
+console.log("  User  is  a Developer" , developer)
+
+
 // program 04
 
 // valid and inavalid
@@ -36,29 +43,30 @@ var name =invalid,course,class,*/
 var a=3
 var b=3
 var sum=a+b
-console.log("sum of a and b is " ,sum)
+console.log("   Sum of a and b is " ,sum)
+
 
 // program 06
 var a=3
 var b=3
 var sub=a-b
-console.log("subtraction of a and b is " ,sub)
+console.log("Subtraction of a and b is " ,sub)
 
 
 // program 07
 var a=3
 var b=9
 var multiply=a*b
-console.log("multiplication of a and b is " , multiply)
+console.log("    Multiplication of a and b is " , multiply)
 
 
 // program 08
 var a=2
 var b=2
 var divide=a/b
-console.log("division of a and b is " , divide)
+console.log("Division of a and b is " , divide)
 var reminder=0
-console.log("So reminder is " ,reminder)  
+console.log("  So reminder is " ,reminder)  
 var quiotent=1
 console.log("So reminder is " ,quiotent)
 
@@ -67,12 +75,12 @@ console.log("So reminder is " ,quiotent)
 var length = 24
 var weidth=54
 var area=length*weidth
-console.log ("Area of rectangle is" ,area )
+console.log ("Area of Rctangle is" ,area )
 
 // program 10
 var length=4
 var square= length*length
-console.log("length of square is" , square)
+console.log("Length of Square is" , square)
 
 
 // program 11
@@ -81,7 +89,34 @@ var a =9
 var b=6
 var c=7
 var average=a%b%c
-console.log("Average of three number is " ,average)
+console.log("Average of three Number is " ,average)
+ 
+// program 12
+var chair1=1
+var chair2=2
+var chair3=++chair1
+console.log ("value of 3 variables " , chair3)
+   
+
+//   program 13
+var num1=100
+var num2=5
+console.log(" A number is Greater then 100 or not",num1<num2 )
+
+var num1=100
+var num2=5
+console.log(" A number is Greater then 100 or not",num2<num1 )
+
+// program 14
+var t=4
+var u=6
+var compare=t<u
+console.log("comparision between two numbers" ,compare)
+
+
+
+
+
 // program 15
 var math=50
 var urdu =50
@@ -89,21 +124,15 @@ var bio=50
 var eng=50
 var islamiat=50
 var total= 250
-console.log("Total number of math + urdu + eng + bio + islamiat" ,total)
+console.log("Total Number of math + urdu + eng + bio + islamiat" ,total)
 
 var math=50
 var urdu =50
 var bio=50
 var eng=50
 var islamiat=50
-var average= math % urdu % eng %bio % islamiat
+var average= math % urdu % eng % bio % islamiat
 console.log("Average of 5 subject is ",average)
-// program 
-
-
-
-
-
 
 
 
@@ -138,17 +167,22 @@ console.log("division  of t and u is equal to " ,division )
 var e=7
 var h=8
 var modulus=e%h
-console.log("modulus of e and h is " , modulus)
+console.log("modulus of e and h is " , modulus) 
+
+//  exponent
+var h=8
+var exponent=h**3
+console.log("exponent of e and h is " ,exponent ) 
 
 
 // program 17
-var age1=56
+var age1=52
 var age2=54
 var comparision=age1>age2
 console.log("check age1 is greather then age2" , comparision)
 var age1=89
 var age2=98
-var comparision=age1<age2
+var comparision=age2>age1
 console.log("check age1 is greather then age2" , comparision)
 
 
