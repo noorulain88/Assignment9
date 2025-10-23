@@ -94,8 +94,17 @@ console.log("Average of three Number is " ,average)
 // program 12
 var chair1=1
 var chair2=2
-var chair3=++chair1
-console.log ("value of 3 variables " , chair3)
+var swap1=++chair2
+console.log("swap value of chair 2 into chair 3 ", swap1)
+
+var chair1=1
+var swap2=++chair1
+console.log("swap value of chair 1 into chair 2", swap2)
+
+var chair3=3
+var swap3=--chair1
+console.log("swap value of chair3  into chair1 ", swap3)
+
    
 
 //   program 13
@@ -195,15 +204,4 @@ console.log("check a and b are equal" , a==b)
 var u=7
 var v=9
 console.log("check u and v are equal" , u==v)
-
-
-
-
-
-
-    
-
-
-
-
 
